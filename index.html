@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Carrara's Homepage</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 5em;
+            color: transparent;
+            background: linear-gradient(45deg, #b6ff00, #00ac00, #006600);
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation: textAnimation 3s forwards;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 1.2em; /* Adjusted font size */
+            font-weight: bold; /* Adjusted font weight */
+            color: #444; /* Adjusted color */
+            margin: 5px 0; /* Adjusted margin */
+        }
+
+        p {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 0.9em;
+            color: #999;
+            margin: 1;
+            position: absolute; /* Set absolute positioning */
+            bottom: 0; /* Align to the bottom */
+        }
+
+        @keyframes textAnimation {
+            from {
+                color: transparent;
+            }
+
+            to {
+                color: #006600;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Welcome to Matteo Carrara's personal website</h2>
+    <p>(Not) Designed by Apple in California</p>
+</body>
+</html>
