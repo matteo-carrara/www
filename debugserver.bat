@@ -1,1 +1,2 @@
- python -m http.server 80
+cd src
+python -m http.server 80
