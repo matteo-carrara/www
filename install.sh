@@ -1,1 +1,2 @@
-cp -r src/  /var/www/html/
+#!/bin/bash
+cp  src/*  /var/www/html/
